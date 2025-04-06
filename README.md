@@ -7,6 +7,6 @@ Keywords: Raspberry Pi, OpenCV, Stepper Motor, Servo Control, Color Detection, A
 
 Demonstration:
 https://youtu.be/bXQAf65EoB4
-Video Link:
-https://youtu.be/bXQAf65EoB4
+Documentation Link:
+https://docs.google.com/document/d/13cMJTbjL3LsCIIEnE3JMk_mNxjLzLZRmM-X0NAvaSHs/edit?usp=sharing 
 
