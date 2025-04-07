@@ -33,7 +33,8 @@ Multi-threaded Python code for smooth concurrent operation
 
 ![image](https://github.com/user-attachments/assets/ebb6e9d1-d788-41a0-ac6b-1c5646534893)
 
-**Setup Instructions:**
+**Setup Instructions:**  
+
 Step 1: Clone the Repository
 ```
 git clone https://github.com/epsibamiriam/Automated-Sorting-System-Using-Mechatronics-Principles.git
