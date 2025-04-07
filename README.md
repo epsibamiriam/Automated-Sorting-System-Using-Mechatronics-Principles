@@ -28,7 +28,8 @@ Multi-threaded Python code for smooth concurrent operation
 
 CIRCUIT DIAGRAM:
 
-![image](https://github.com/user-attachments/assets/fcaece03-eeca-484f-9fdc-8b6dfb718e93)
+![WhatsApp Image 2025-04-07 at 15 16 36_66edf939](https://github.com/user-attachments/assets/d43fab53-dacd-45d1-ad5d-f2be14f21549)
+
 
 
    
