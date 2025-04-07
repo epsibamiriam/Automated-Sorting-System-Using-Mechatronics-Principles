@@ -33,13 +33,52 @@ Multi-threaded Python code for smooth concurrent operation
 
 ![image](https://github.com/user-attachments/assets/ebb6e9d1-d788-41a0-ac6b-1c5646534893)
 
+**Setup Instructions:**
+Step 1: Clone the Repository
+```
+git clone https://github.com/epsibamiriam/Automated-Sorting-System-Using-Mechatronics-Principles.git
+cd Automated-Sorting-System-Using-Mechatronics-Principles
+```
+Step 2: Set Up Python Environment
+```
+# Create and activate virtual environment
+python3 -m venv venv
+source venv/bin/activate  # Linux/macOS
+# OR
+.\venv\Scripts\activate   # Windows
 
+# Install dependencies
+pip install -r requirements.txt
+```
+Step 3: Hardware Connections
 
+Refer to the documentation for the connections
+https://docs.google.com/document/d/13cMJTbjL3LsCIIEnE3JMk_mNxjLzLZRmM-X0NAvaSHs/edit?usp=sharing
 
+Step 4: Test Camera
+```
+# Verify camera detection
+lsusb | grep "Intel"  # For Intel camera
+# OR
+libcamera-hello       # For Raspberry Pi Camera
+```
+Step 5: Run the System
+```
+python3 sorting_system.py
+```
 
+Step 6: Access Web Interface
+```
+http://<your-pi-ip>:5000
+```
+**Troubleshooting:**
 
-
-
+Camera not detected?
+Check USB connection or run v4l2-ctl --list-devices
+GPIO errors?
+Ensure RPi.GPIO is installed (pip install RPi.GPIO)
+Web interface blank?
+Verify Flask/SocketIO logs for errors
 
 
    
