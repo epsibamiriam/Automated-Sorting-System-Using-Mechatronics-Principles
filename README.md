@@ -29,7 +29,6 @@ Multi-threaded Python code for smooth concurrent operation
    -->Green: 90° (neutral/default bin)  
 4. Conveyor resumes after 3-second delay
 
-CIRCUIT DIAGRAM:
 
 ![WhatsApp Image 2025-04-07 at 15 16 36_66edf939](https://github.com/user-attachments/assets/d43fab53-dacd-45d1-ad5d-f2be14f21549)
 
