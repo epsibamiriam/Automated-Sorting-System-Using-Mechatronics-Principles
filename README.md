@@ -29,7 +29,10 @@ Core Workflow:
    -->Green: (neutral/default bin)  
 4. Conveyor resumes
 
-   ![image](https://github.com/user-attachments/assets/901a6e9e-28c2-454b-b386-4690397b702e)
+SYSTEM ARCHITECTURE:
+
+![image](https://github.com/user-attachments/assets/38428be3-faeb-4b41-a49b-37a14c6302b6)
+
 
 
 
