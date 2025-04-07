@@ -31,7 +31,9 @@ Core Workflow:
 
 SYSTEM ARCHITECTURE:
 
-![image](https://github.com/user-attachments/assets/38428be3-faeb-4b41-a49b-37a14c6302b6)
+![image](https://github.com/user-attachments/assets/ebb6e9d1-d788-41a0-ac6b-1c5646534893)
+
+
 
 
 
