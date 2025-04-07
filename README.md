@@ -79,12 +79,10 @@ Check USB connection or run v4l2-ctl --list-devices
 
   
 GPIO errors?  
-
 Ensure RPi.GPIO is installed (pip install RPi.GPIO)  
 
   
 Web interface blank?  
-
 Verify Flask/SocketIO logs for errors
 
 
