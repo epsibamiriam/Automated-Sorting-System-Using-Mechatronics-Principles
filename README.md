@@ -27,7 +27,10 @@ Core Workflow:
    -->Blue:  (right bin)  
    -->Red:  (left bin)  
    -->Green: (neutral/default bin)  
-4. Conveyor resumes 
+4. Conveyor resumes
+
+   ![image](https://github.com/user-attachments/assets/901a6e9e-28c2-454b-b386-4690397b702e)
+
 
 
 
