@@ -10,7 +10,7 @@ from web_interface import system_data, socketio
 os.environ['QT_QPA_PLATFORM'] = 'offscreen'
 os.environ['DISPLAY'] = ':0'  # Fallback display setting
 
-print("Waiting for 7 seconds before starting the system...")
+print("Starting the system...")
 time.sleep(7)
 
 # Pin Configuration
@@ -100,14 +100,14 @@ def monitor_ir_sensor():
             handle_detected_color(color)
             time.sleep(3)
             motor_running = True
-            log_entry = f"{time.strftime('%H:%M:%S')} - Restarting motors after 3 seconds pause."
+            log_entry = f"{time.strftime('%H:%M:%S')} - Restarting motors..."
             system_data['logs'].append(log_entry)
             socketio.emit('update_logs', log_entry)
             print(log_entry)
             time.sleep(10)
             set_servo_angle(servo_1, 90, "Servo 1")
             set_servo_angle(servo_2, 90, "Servo 2")
-            log_entry = f"{time.strftime('%H:%M:%S')} - Servos reset to 90 degrees after 10 seconds total pause."
+            log_entry = f"{time.strftime('%H:%M:%S')} - Servos reset to initial position."
             system_data['logs'].append(log_entry)
             socketio.emit('update_logs', log_entry)
             print(log_entry)
@@ -195,7 +195,7 @@ def handle_detected_color(color):
             set_servo_angle(servo_1, 90, "Servo 1")
             set_servo_angle(servo_2, 90, "Servo 2")
     else:
-        log_entry = f"{time.strftime('%H:%M:%S')} - No color detected, keeping both servos at 90 degrees."
+        log_entry = f"{time.strftime('%H:%M:%S')} - No color detected, keeping both servos at initial position."
         system_data['logs'].append(log_entry)
         socketio.emit('update_logs', log_entry)
         print(log_entry)
