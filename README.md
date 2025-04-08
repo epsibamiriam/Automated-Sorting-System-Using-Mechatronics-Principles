@@ -49,7 +49,7 @@ source venv/bin/activate  # Linux/macOS
 .\venv\Scripts\activate   # Windows
 
 # Install dependencies
-python3 requirments.py
+python3 requirements.py
 ```
 **Step 3:** Hardware Connections
 
