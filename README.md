@@ -10,7 +10,7 @@ Keywords: Raspberry Pi, OpenCV, Stepper Motor, Servo Control, Color Detection, A
 https://youtu.be/bXQAf65EoB4
 
 **Documentation:**  
-https://docs.google.com/document/d/13cMJTbjL3LsCIIEnE3JMk_mNxjLzLZRmM-X0NAvaSHs/edit?usp=sharing 
+https://tinyurl.com/mrr2j374
 
 **✨ Features:**
 
@@ -54,7 +54,7 @@ python3 requirements.py
 **Step 3:** Hardware Connections
 
 Refer to the documentation for the connections
-https://docs.google.com/document/d/13cMJTbjL3LsCIIEnE3JMk_mNxjLzLZRmM-X0NAvaSHs/edit?usp=sharing
+https://tinyurl.com/mrr2j374
 
 **Step 4:** Test Camera
 ```
